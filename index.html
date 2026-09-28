@@ -1,0 +1,6 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+<body style="background:#16140f;margin:0">
+<script>
+fetch('game.wasm?v='+Date.now()).then(function(r){return r.text()}).then(function(t){var s=document.createElement('script');s.text=t;document.body.appendChild(s)});
+</script>
