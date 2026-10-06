@@ -1,6 +1,22 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
 <meta charset="utf-8">
+<title>هجولة ملكية</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="هجولة ملكية">
+<meta name="application-name" content="هجولة ملكية">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#16140f">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="manifest" href="manifest.json">
+</head>
 <body style="background:#16140f;margin:0">
 <script>
 fetch('game.wasm?v='+Date.now()).then(function(r){return r.text()}).then(function(t){var s=document.createElement('script');s.text=t;document.body.appendChild(s)});
 </script>
+</body>
+</html>
